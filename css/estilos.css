@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+
+#particles-js {
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100% ;
+    position: relative;
+    top: 70px;
+    z-index: -1;
+}
+
+.contenedor {
+    position: absolute;
+    width: 100%;
+}
+
+.contenedor__nabvar {
+    width: 100%;
+}
+
+
+.nabvar {
+    width: 100%;
+}
+
+.nabvar__lista {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.lista {
+    list-style: none;
+}
+
+.nabvar__lista-item {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-weight: inherit;  
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.titulo__equipo {
+    color: #fff;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.encabezado {
+    color: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.encabezado__integrantes {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.encabexado__nombres {
+    width: 50%;
+}
+
+.encabezado__icono {
+    color: #26f;
+    padding: 5px;
+}
+
+.encabezado__imagen {
+    width: 50%;
+    height: 400px;
+    z-index: -2;
+}
+
+.encabezado__imagen-primero {
+    height: 450px;
+}
+

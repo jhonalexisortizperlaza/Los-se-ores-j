@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    text-align: center;
+}
+
+header img{
+    border: 1px solid#999999;
+    margin: 10px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.izquierda{
+    width: 440px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background-color: #fab1a0;
+    padding: 8px;
+    float: left;
+    margin: 10px;
+}
+
+.derecha{
+    width: 440px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background-color: #ffeaa7;
+    padding: 8px;
+    float: right;
+    margin: 10px;
+}
+
+.agrupar { 
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background-color: #81ecec;
+}
+
+.body{
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.h33{
+    background-color: #fab1a0;
+    text-align: center;
+    padding: 8px;
+}
+
+.h3{
+    background-color: #ffeaa7;
+    text-align: center;
+    padding: 8px;
+}
+
+.pie{
+    clear: both;
+    padding: 20PX;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+    background-color: #74b9ff;
+}
+
+.video{
+    text-align: center;
+}
+
+.pie li{
+    list-style: none;
+}
+
+.pie{
+    background-color: #a29bfe;
+    padding: 10px;    
+}
